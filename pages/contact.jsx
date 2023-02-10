@@ -2,6 +2,13 @@ import React from "react";
 import ContactForm from "../components/ContactForm";
 import Container from "../components/Container";
 import SectionHead from "../components/SectionHead";
+
+export const getStaticProps = async () => {
+  return {
+    props: {},
+  };
+};
+
 const Contact = () => {
   return (
     <Container>

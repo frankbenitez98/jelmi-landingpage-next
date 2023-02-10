@@ -6,6 +6,12 @@ import Features from "../components/Features";
 import RecruitFeatures from "../components/RecruitFeatures";
 import Cta from "../components/Cta";
 
+export const getStaticProps = async () => {
+  return {
+    props: {},
+  };
+};
+
 const Home = () => {
   return (
     <Container>
